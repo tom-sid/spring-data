@@ -61,6 +61,14 @@ public class Post {
 		this.postedOn = postedOn;
 	}
 
+	public Author getAuthor() {
+		return author;
+	}
+
+	public void setAuthor(Author author) {
+		this.author = author;
+	}
+
 	@Override
 	public String toString() {
 		return String.format("Post [id=%s, title=%s, body=%s, postedOn=%s]", id, title, body, postedOn);
